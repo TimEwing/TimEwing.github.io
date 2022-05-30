@@ -18,7 +18,7 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="tim.fish">
 <meta property="og:title" content="tim.fish">
-<meta property="og:url" content="http://localhost:4000/">
+<meta property="og:url" content="http://localhost:4000/welcome/">
 
 
   <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
@@ -34,7 +34,7 @@
 
 
 
-<link rel="canonical" href="http://localhost:4000/">
+<link rel="canonical" href="http://localhost:4000/welcome/">
 
 
 
@@ -85,7 +85,7 @@
 
   </head>
 
-  <body class="layout--collection">
+  <body class="layout--splash wide">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -125,30 +125,81 @@
     <div class="initial-content">
       
 
-
-
 <div id="main" role="main">
-  
-
-
-  <div class="archive">
+  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
     
-      <h1 id="page-title" class="page__title"></h1>
+    
     
     
 
+    <section class="page__content" itemprop="text">
+      <!-- content of console, to be rendered in char by char -->
+<div id="template-div" style="display: none;">
+  <span id="template-newline" style="color: #999;">&nbsp;&gt;&nbsp;</span>
+  <span id="template-cursor" class="blink">&#9608;</span>
+  <!-- Each element inside the template-content div will be added to #console one at a time in a copy of their element (without the extra classes) -->
+  <!-- For data-delay, the text will be rendered with a longer delay -->
+  <!-- For typewriter classes, the text will be added one char at a time -->
+  <!-- For newline classes, the element gets added to a new parent <p> -->
 
+  <!-- Nested elements are not supported; the first element must have class newline -->
+  <div id="template-content">
+    <span class="newline" data-delay="2000"></span>
+    <span class="typewriter">Hello, world!</span>
+    <span data-delay="1500"></span>
 
-<div class="entries-list">
-  
+    <span class="newline typewriter">I'm Tim Ewing.</span>
+    <span data-delay="800"></span> 
+    <span class="typewriter"> I'm a Software Engineer with a BS in Engineering Physics from the University of Colorado Boulder.</span>
+    <span data-delay="1500"></span>
 
+    <a href="/" class="newline typewriter">tim.fish</a>
+    <span class="typewriter"> is my website.</span>
+    <span data-delay="300"></span>
+    <span class="typewriter"> It shows off some of the projects and work that I do. </span>
+    <span data-delay="500"></span>
+    <span class="newline typewriter">I use it as a sort of virtual resume and portfolio;</span>
+    <span data-delay="300"></span> 
+    <span class="typewriter"> since you're here, I probably want you to hire me! </span>
+    <span data-delay="1000"></span>
 
+    <span class="newline typewriter">If so, my resume is </span>
+    <a href="/resume/" class="typewriter">here</a>
+    <span class="typewriter"> and a list of the projects on this site is </span>
+    <a href="/" class="typewriter">here</a>
+    <span class="typewriter">.</span>
+    <span data-delay="1000"></span>
 
+    <span class="newline typewriter">If you're not here to hire me, then</span>
+    <span data-delay="600">...</span>
+    <span data-delay="1000"></span>
+    <span class="typewriter"> Well, hi I guess?</span>
+    <span data-delay="600"></span>
+    <span class="typewriter"> How did you get here?</span>
+    <span data-delay="500"></span>
+    <span class="typewriter"> Are you lost?</span>
+    <span data-delay="500"></span>
+    <span data-delay="1000" class="newline typewriter">...</span>
+    <span class="newline typewriter">I guess you should just take a look around too. </span>
+    <span data-delay="1000"></span>
 
-</div>
+    <span class="newline" data-delay="750"></span>
+    <span class="typewriter">Click </span>
+    <a href="/" class="typewriter">here</a>
+    <span class="typewriter"> to continue.</span>
 
   </div>
 </div>
+
+<div class="console">
+  <div id="console"></div>
+  <a class="btn skip-animation" href="#" id="skip-animation">Skip Animation</a>
+</div>
+
+    </section>
+  </article>
+</div>
+
     </div>
 
     
