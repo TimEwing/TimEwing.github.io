@@ -1,10 +1,10 @@
 $(document).ready(function() {
   // On initial load, redirect to /welcome
-  let welcomePlayed = localStorage.getItem("welcomePlayed");
-  if(!welcomePlayed) {
+  let welcomePlayed = sessionStorage.getItem("welcomePlayed");
+  if(!welcomePlayed && window.location.pathname == '/') {
     // first time loaded!
-    localStorage.setItem("welcomePlayed", true);
-    window.location.replace("/welcome")
+    sessionStorage.setItem("welcomePlayed", 1);
+    window.location.replace("/welcome");
   }
 
   // Defaults
