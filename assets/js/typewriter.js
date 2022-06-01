@@ -121,7 +121,6 @@ $(document).ready(function() {
   // Render the pseudoconsole
   if ($('#template-content').length) {
     let contentArray = $("#template-content").children().toArray();
-    console.log(contentArray);
     renderConsole(null, contentArray, [], typingSpeed); 
   }
 });
