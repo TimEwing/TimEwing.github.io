@@ -8,7 +8,7 @@ $(document).ready(function() {
   }
 
   // Defaults
-  let typingSpeed = 55; // ms per char
+  let typingSpeed = 35; // ms per char
 
   /// welcome.html
   /// Functions for the typewriter effect in the pseudo-console
