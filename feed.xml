@@ -1,17 +1,136 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-05-30T10:37:55-06:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">tim.fish</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/05/23/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-05-23T15:59:42-06:00</published><updated>2022-05-23T15:59:42-06:00</updated><id>http://localhost:4000/jekyll/update/2022/05/23/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/05/23/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://tim.fish/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tim.fish/" rel="alternate" type="text/html" /><updated>2022-06-01T00:24:36-04:00</updated><id>https://tim.fish/feed.xml</id><title type="html">tim.fish</title><subtitle>tim.fish is the personal website of Tim Ewing, a software engineer from  Boulder, Colorado.</subtitle><author><name>Tim Ewing</name></author><entry><title type="html">omnichrome.py█</title><link href="https://tim.fish/2022/05/23/omnichrome.html" rel="alternate" type="text/html" title="omnichrome.py█" /><published>2022-05-23T17:59:42-04:00</published><updated>2022-05-23T17:59:42-04:00</updated><id>https://tim.fish/2022/05/23/omnichrome</id><content type="html" xml:base="https://tim.fish/2022/05/23/omnichrome.html">&lt;p&gt;Omnichrome is a project I’ve been working on for almost as long as I’ve been able to code. I use it as a practice project to make sure I stay in form when I’m not doing much coding at work or school.&lt;/p&gt;
 
-&lt;p&gt;Jekyll requires blog post files to be named according to the following format:&lt;/p&gt;
+&lt;p&gt;What does it do?&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Omnichrome makes images.&lt;/p&gt;
 
-&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt; is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/omni/splut.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;It makes pretty, colorful, fractal-esque images.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/omni/splat.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Every pixel in the images is unique; every possible 7-bit color is there exactly once.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/omni/splurt.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;These images are produced by the current iteration, which is 5th or 6th total version of the program.&lt;/p&gt;
+
+&lt;p&gt;The original inspiration was a post on &lt;a href=&quot;(https://codegolf.stackexchange.com/questions/22144/images-with-all-colors)&quot;&gt;codegolf.stackexchange&lt;/a&gt; that challenged competitors to create images with every color. They link to &lt;a href=&quot;allrgb.com&quot;&gt;allrgb.com&lt;/a&gt;; who knows where the original idea came from.&lt;/p&gt;
+
+&lt;p&gt;I wrote my first version in middle school. I used a language called &lt;a href=&quot;https://processing.org/&quot;&gt;processing&lt;/a&gt;, which is really just Java with a nice graphics interface. I only have one sample that survived from that version:&lt;/p&gt;
+
+&lt;figure style=&quot;width: 256px&quot; class=&quot;align-center&quot;&gt;
+  &lt;img src=&quot;/assets/images/omni/flower.png&quot; /&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Honestly, I still think it kinda looks good but realistically there’s no way it’s actually omnichromatic (meaning a unique and spanning set of pixels).&lt;/p&gt;
+
+&lt;p&gt;The newest version is a lot more complex than that original version. In a sentence, it uses a K-D tree to iteratively place the nearest unused pixel in color to the neighbors moving outward from the center. At a high level that isn’t too complicated, but the details get pretty messy pretty quickly.&lt;/p&gt;
+
+&lt;h1 id=&quot;how-to-build-an-omnichrome&quot;&gt;How to build an Omnichrome&lt;/h1&gt;
+
+&lt;h2 id=&quot;step-one-make-a-stochastic-3d-voronoi-partition-of-the-entire-colorspace&quot;&gt;Step One: Make a stochastic 3D Voronoi partition of the entire colorspace&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Stochastic 3D Voronoi Partition&lt;/em&gt;. What?&lt;/p&gt;
+
+&lt;p&gt;A Voronoi pattern is made by selecting a bunch of points on the plane, then coloring the plane based on the nearest point. Wikipedia has a nice example:&lt;/p&gt;
+
+&lt;figure style=&quot;width: 350px&quot; class=&quot;align-center&quot;&gt;
+  &lt;a href=&quot;https://en.wikipedia.org/wiki/Voronoi_diagram&quot;&gt;
+    &lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Euclidean_Voronoi_diagram.svg/1024px-Euclidean_Voronoi_diagram.svg.png&quot; /&gt;
+  &lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;We’re doing the same thing, but we’re grouping &lt;em&gt;colorspace&lt;/em&gt; instead of normal euclidian space. However, since humans have three differently colored cones in our eyes, we need three dimensions in our colorspace, so we get more of a Voronoi Cube than a Voronoi Diagram.&lt;/p&gt;
+
+&lt;p&gt;That’s not so hard. We’re randomly (&lt;em&gt;stochastically&lt;/em&gt;) selecting a bunch of colors, and grouping the rest of the &lt;em&gt;colorspace&lt;/em&gt; by which color is closest (&lt;em&gt;Voronoi partitioning&lt;/em&gt;). &lt;em&gt;Stochastic 3D Voronoi Partitioning&lt;/em&gt;. Neat.&lt;/p&gt;
+
+&lt;h1 id=&quot;step-two-the-k-d-tree&quot;&gt;Step Two: The K-D Tree&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Use the Voronoi Partitions to build a K-D Tree&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;A &lt;a href=&quot;https://en.wikipedia.org/wiki/K-d_tree&quot;&gt;K-D Tree&lt;/a&gt; is a binary tree used to partition &lt;em&gt;spacial&lt;/em&gt; data instead of just numerical data. It works in some K number of dimensions instead of just one; a binary tree is a special case of a K-D tree where K=1. Normally, a K-D tree works somewhat differently than in our case. The Voronoi partioning gives much more asthetically pleasing results, but it isn’t a part of the normal process.&lt;/p&gt;
+
+&lt;p&gt;For our case, we just use each group from the previous step (the Voronoi partitions) as a single branch of the tree. A normal K-D Tree has only two branches per step - we can have any number (although only one branch would be a pretty sad tree).&lt;/p&gt;
+
+&lt;p&gt;The ‘key’ for each branch is just the point that corresponded to that group. Later, when we want to search through the tree, we just compare the color we’re searching to each branch’s initial color.&lt;/p&gt;
+
+&lt;p&gt;Now, we just need to iterate the process: each sub-group from the original Voronoi partition is broken into a pattern of even more Voronoi partitions. Continue until each partition only has one pixel.&lt;/p&gt;
+
+&lt;p&gt;Efficiently partitioning the whole space is a can of worms I don’t want to get into right now, but a push in the right direction would be to imagine each selected color as a heavy mass on a rubber sheet, and to imagine the other colors in the space as particles sliding down towards that color.&lt;/p&gt;
+
+&lt;h1 id=&quot;step-three-search-the-tree&quot;&gt;Step Three: Search the Tree&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Starting in the middle of the image, place each pixel from the tree&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;This part is easier. Since we already have the tree, it’s now pretty easy to search it for colors. All we have to do is this:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Pick a pixel to place; start at the middle, and spiral outward to the edges.&lt;/li&gt;
+  &lt;li&gt;Average the neighboring pixels; search the K-D Tree for the nearest color to this average.&lt;/li&gt;
+  &lt;li&gt;Pop that color out of the tree; place it at this pixel.&lt;/li&gt;
+  &lt;li&gt;Return to step 1 until we’re out of pixels.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And that’s it. Tadaa! You’ve made an omnichromic (&lt;em&gt;omnichromatic?&lt;/em&gt;) picture!&lt;/p&gt;
+
+&lt;h1 id=&quot;step-four-tune-the-result&quot;&gt;Step Four: Tune the result&lt;/h1&gt;
+
+&lt;p&gt;Lots of parameters can be changed and tuned here to make better looking outputs. For example, when making the Voronoi partitions, there’s not really a good reason to use the normal Euclidian metric. I found the best results come from using a skewed metric which uses Hue, Saturation, and Value as the basis, treats Hue as circular, and weights distances in Hue stronger when Saturation and Value are higher.&lt;/p&gt;
+
+&lt;p&gt;There’s also no reason you have to start in the middle and spiral out:&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/omni/drip.png&quot; alt=&quot;&quot; /&gt;&lt;/figure&gt;
+
+&lt;p&gt;I personally think the circular ones are best, but to each their own. Someday I’ll probably write another version, but this is the project as it stands.&lt;/p&gt;
+
+&lt;p&gt;Thanks for reading.&lt;/p&gt;</content><author><name>Tim Ewing</name></author><summary type="html">Programmatically produced polychromatic pictures with picturesquely placed pixels</summary></entry><entry><title type="html">kepler.py█</title><link href="https://tim.fish/2022/05/21/kepler.html" rel="alternate" type="text/html" title="kepler.py█" /><published>2022-05-21T12:00:00-04:00</published><updated>2022-05-21T12:00:00-04:00</updated><id>https://tim.fish/2022/05/21/kepler</id><content type="html" xml:base="https://tim.fish/2022/05/21/kepler.html">&lt;p&gt;Kepler is a program which simulates what an Earth-based telescope would see when observing the transit of an exoplanet in front of another solar system’s star.&lt;/p&gt;
+
+&lt;figure style=&quot;width: 218px&quot; class=&quot;align-center&quot;&gt;
+  &lt;a href=&quot;https://xkcd.com/1371/&quot;&gt;
+    &lt;img src=&quot;https://imgs.xkcd.com/comics/brightness.png&quot; /&gt;
+  &lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;It was designed to generate short, educational animations to help explain the concept to students. I wrote it as an optional, extra-credit assignment for my Introduction to Astronomy class - the assignment was to create an educational graphic for future classes.&lt;/p&gt;
+
+&lt;p&gt;Here’s a what Jupiter orbiting the Sun in Mercury’s orbit would look like:&lt;/p&gt;
+
+&lt;video align=&quot;center&quot; width=&quot;100%&quot; autoplay=&quot;true&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/videos/kepler.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+&lt;p&gt;The program actually generates four separate, synchronized animations:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Upper-left: The (exaggerated) color of what each pixel would see&lt;/li&gt;
+  &lt;li&gt;Upper-right: The orbit, sun, and planet (to scale)&lt;/li&gt;
+  &lt;li&gt;Center-right: The non-pixelated image of the planet crossing the star&lt;/li&gt;
+  &lt;li&gt;Bottom: The lightcurve of the observation, with simulated noise.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The program is able to handle all the normal parameters for keplerian orbits. Here’s Jupiter on a completely unrealistic, inclined, comet-like path in front of the Sun:&lt;/p&gt;
+
+&lt;video align=&quot;center&quot; width=&quot;100%&quot; autoplay=&quot;true&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/videos/kepler2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;You can also use Kepler to simulate lunar eclipses since it is essentially the same phenomenon (a big dark thing going in front of the big circular light thing):&lt;/p&gt;
+&lt;video align=&quot;center&quot; width=&quot;100%&quot; autoplay=&quot;true&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+  &lt;source src=&quot;/assets/videos/kepler3.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+&lt;/video&gt;
+
+&lt;p&gt;I wrote the program in python and used basically only numpy and matplotlib; no libraries were used for orbital or geometry calculations. There’s a ton of 2-d and 3-d trig involved, and it got pretty nasty pretty quickly. It also includes a hand-built Newton’s Method minimum finder since I got sick of trying to analytically solve for the transit point.&lt;/p&gt;
+
+&lt;p&gt;I’m not going to write up the mess that is the geometry involved here, but if you want a taste the code is at &lt;a href=&quot;https://github.com/TimEwing/kepler&quot;&gt;https://github.com/TimEwing/kepler&lt;/a&gt;. There is only one commit, no documentation, and only a few comments but other than the math its mostly just configuring matplotlib. The whole project was less than 48 hours start-to-finish. The highlight is probably the solution for the circle-circle-square intersection; that chunk of code took the majority of the project’s time.&lt;/p&gt;</content><author><name>Tim Ewing</name></author><summary type="html">Hand-made keplerian orbit simulation, made as extra credit for an introductory astronomy class.</summary></entry><entry><title type="html">nh_convert.sh█</title><link href="https://tim.fish/2022/05/18/nh-convert.html" rel="alternate" type="text/html" title="nh_convert.sh█" /><published>2022-05-18T12:00:00-04:00</published><updated>2022-05-18T12:00:00-04:00</updated><id>https://tim.fish/2022/05/18/nh-convert</id><content type="html" xml:base="https://tim.fish/2022/05/18/nh-convert.html">&lt;p&gt;One of the perks of interning at Southwest Research Institute was being able to do an independent study my senior year. I was asked to convert unresolved observations of Pluto from NASA’s New Horizons between two sets of optical filters. Since the bandwidth profile of the two filter sets didn’t correspond cleanly, conversion was fairly involved.&lt;/p&gt;
+
+&lt;p&gt;A writeup of the project is available as a pdf &lt;a href=&quot;/assets/nh_conversion_tim_ewing.pdf&quot;&gt;here&lt;/a&gt;:&lt;/p&gt;
+
+&lt;embed src=&quot;/assets/nh_conversion_tim_ewing.pdf&quot; type=&quot;application/pdf&quot; /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The code is structured as a Python data pipeline, segmented into many steps which were individually tested and verified. It’s available on &lt;a href=&quot;git@github.com:TimEwing/pluto.git&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</content><author><name>Tim Ewing</name></author><summary type="html">New Horizons unresolved observation filter conversion, performed as an independent study.</summary></entry></feed>

@@ -1,0 +1,388 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>kepler.py█ - tim.fish</title>
+<meta name="description" content="Hand-made keplerian orbit simulation, made as extra credit for an introductory astronomy class.">
+
+
+  <meta name="author" content="Tim Ewing">
+  
+  <meta property="article:author" content="Tim Ewing">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="tim.fish">
+<meta property="og:title" content="kepler.py█">
+<meta property="og:url" content="https://tim.fish/2022/05/21/kepler.html">
+
+
+  <meta property="og:description" content="Hand-made keplerian orbit simulation, made as extra credit for an introductory astronomy class.">
+
+
+
+
+
+
+
+  <meta property="article:published_time" content="2022-05-21T12:00:00-04:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://tim.fish/2022/05/21/kepler.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://tim.fish/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="tim.fish Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          tim.fish
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/profile.jpg" alt="Tim Ewing" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Tim Ewing</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Engineer</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Boulder, Colorado</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/TimEwing" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/nottimewing" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="kepler.py█">
+    <meta itemprop="description" content="Hand-made keplerian orbit simulation, made as extra credit for an introductory astronomy class.">
+    <meta itemprop="datePublished" content="2022-05-21T12:00:00-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">kepler.py<span class="blink">█</span>
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Kepler is a program which simulates what an Earth-based telescope would see when observing the transit of an exoplanet in front of another solar system’s star.</p>
+
+<figure style="width: 218px" class="align-center">
+  <a href="https://xkcd.com/1371/">
+    <img src="https://imgs.xkcd.com/comics/brightness.png" />
+  </a>
+</figure>
+
+<p>It was designed to generate short, educational animations to help explain the concept to students. I wrote it as an optional, extra-credit assignment for my Introduction to Astronomy class - the assignment was to create an educational graphic for future classes.</p>
+
+<p>Here’s a what Jupiter orbiting the Sun in Mercury’s orbit would look like:</p>
+
+<video align="center" width="100%" autoplay="true" loop="" muted="">
+  <source src="/assets/videos/kepler.mp4" type="video/mp4" />
+</video>
+<p>The program actually generates four separate, synchronized animations:</p>
+<ol>
+  <li>Upper-left: The (exaggerated) color of what each pixel would see</li>
+  <li>Upper-right: The orbit, sun, and planet (to scale)</li>
+  <li>Center-right: The non-pixelated image of the planet crossing the star</li>
+  <li>Bottom: The lightcurve of the observation, with simulated noise.</li>
+</ol>
+
+<p>The program is able to handle all the normal parameters for keplerian orbits. Here’s Jupiter on a completely unrealistic, inclined, comet-like path in front of the Sun:</p>
+
+<video align="center" width="100%" autoplay="true" loop="" muted="">
+  <source src="/assets/videos/kepler2.mp4" type="video/mp4" />
+</video>
+
+<p>You can also use Kepler to simulate lunar eclipses since it is essentially the same phenomenon (a big dark thing going in front of the big circular light thing):</p>
+<video align="center" width="100%" autoplay="true" loop="" muted="">
+  <source src="/assets/videos/kepler3.mp4" type="video/mp4" />
+</video>
+
+<p>I wrote the program in python and used basically only numpy and matplotlib; no libraries were used for orbital or geometry calculations. There’s a ton of 2-d and 3-d trig involved, and it got pretty nasty pretty quickly. It also includes a hand-built Newton’s Method minimum finder since I got sick of trying to analytically solve for the transit point.</p>
+
+<p>I’m not going to write up the mess that is the geometry involved here, but if you want a taste the code is at <a href="https://github.com/TimEwing/kepler">https://github.com/TimEwing/kepler</a>. There is only one commit, no documentation, and only a few comments but other than the math its mostly just configuring matplotlib. The whole project was less than 48 hours start-to-finish. The highlight is probably the solution for the circle-circle-square intersection; that chunk of code took the majority of the project’s time.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-05-21T12:00:00-04:00">May 21, 2022</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/2022/05/18/nh-convert.html" class="pagination--pager" title="nh_convert.sh█
+">Previous</a>
+    
+    
+      <a href="/2022/05/23/omnichrome.html" class="pagination--pager" title="omnichrome.py█
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 tim.fish. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/typewriter.js"></script>
+  
+
+
+
+  </body>
+</html>

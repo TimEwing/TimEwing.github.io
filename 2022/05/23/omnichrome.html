@@ -1,0 +1,445 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>omnichrome.py█ - tim.fish</title>
+<meta name="description" content="Programmatically produced polychromatic pictures with picturesquely placed pixels">
+
+
+  <meta name="author" content="Tim Ewing">
+  
+  <meta property="article:author" content="Tim Ewing">
+  
+
+
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="tim.fish">
+<meta property="og:title" content="omnichrome.py█">
+<meta property="og:url" content="https://tim.fish/2022/05/23/omnichrome.html">
+
+
+  <meta property="og:description" content="Programmatically produced polychromatic pictures with picturesquely placed pixels">
+
+
+
+  <meta property="og:image" content="https://tim.fish/assets/images/omni/splut.png">
+
+
+
+
+
+  <meta property="article:published_time" content="2022-05-23T17:59:42-04:00">
+
+
+
+
+
+
+<link rel="canonical" href="https://tim.fish/2022/05/23/omnichrome.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": null,
+      "url": "https://tim.fish/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="tim.fish Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          tim.fish
+          
+        </a>
+        <ul class="visible-links"></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  
+    <div class="author__avatar">
+      
+        <img src="/assets/images/profile.jpg" alt="Tim Ewing" itemprop="image">
+      
+    </div>
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Tim Ewing</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>Software Engineer</p>
+
+      </div>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Boulder, Colorado</span>
+        </li>
+      
+
+      
+        
+          
+            <li><a href="https://github.com/TimEwing" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span></a></li>
+          
+        
+          
+            <li><a href="https://twitter.com/nottimewing" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i><span class="label">Twitter</span></a></li>
+          
+        
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="omnichrome.py█">
+    <meta itemprop="description" content="Programmatically produced polychromatic pictures with picturesquely placed pixels">
+    <meta itemprop="datePublished" content="2022-05-23T17:59:42-04:00">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">omnichrome.py<span class="blink">█</span>
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Omnichrome is a project I’ve been working on for almost as long as I’ve been able to code. I use it as a practice project to make sure I stay in form when I’m not doing much coding at work or school.</p>
+
+<p>What does it do?</p>
+
+<p>Omnichrome makes images.</p>
+
+<figure class="">
+  <img src="/assets/images/omni/splut.png" alt="" /></figure>
+
+<p>It makes pretty, colorful, fractal-esque images.</p>
+
+<figure class="">
+  <img src="/assets/images/omni/splat.png" alt="" /></figure>
+
+<p>Every pixel in the images is unique; every possible 7-bit color is there exactly once.</p>
+
+<figure class="">
+  <img src="/assets/images/omni/splurt.png" alt="" /></figure>
+
+<p>These images are produced by the current iteration, which is 5th or 6th total version of the program.</p>
+
+<p>The original inspiration was a post on <a href="(https://codegolf.stackexchange.com/questions/22144/images-with-all-colors)">codegolf.stackexchange</a> that challenged competitors to create images with every color. They link to <a href="allrgb.com">allrgb.com</a>; who knows where the original idea came from.</p>
+
+<p>I wrote my first version in middle school. I used a language called <a href="https://processing.org/">processing</a>, which is really just Java with a nice graphics interface. I only have one sample that survived from that version:</p>
+
+<figure style="width: 256px" class="align-center">
+  <img src="/assets/images/omni/flower.png" />
+</figure>
+
+<p>Honestly, I still think it kinda looks good but realistically there’s no way it’s actually omnichromatic (meaning a unique and spanning set of pixels).</p>
+
+<p>The newest version is a lot more complex than that original version. In a sentence, it uses a K-D tree to iteratively place the nearest unused pixel in color to the neighbors moving outward from the center. At a high level that isn’t too complicated, but the details get pretty messy pretty quickly.</p>
+
+<h1 id="how-to-build-an-omnichrome">How to build an Omnichrome</h1>
+
+<h2 id="step-one-make-a-stochastic-3d-voronoi-partition-of-the-entire-colorspace">Step One: Make a stochastic 3D Voronoi partition of the entire colorspace</h2>
+
+<p><em>Stochastic 3D Voronoi Partition</em>. What?</p>
+
+<p>A Voronoi pattern is made by selecting a bunch of points on the plane, then coloring the plane based on the nearest point. Wikipedia has a nice example:</p>
+
+<figure style="width: 350px" class="align-center">
+  <a href="https://en.wikipedia.org/wiki/Voronoi_diagram">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Euclidean_Voronoi_diagram.svg/1024px-Euclidean_Voronoi_diagram.svg.png" />
+  </a>
+</figure>
+
+<p>We’re doing the same thing, but we’re grouping <em>colorspace</em> instead of normal euclidian space. However, since humans have three differently colored cones in our eyes, we need three dimensions in our colorspace, so we get more of a Voronoi Cube than a Voronoi Diagram.</p>
+
+<p>That’s not so hard. We’re randomly (<em>stochastically</em>) selecting a bunch of colors, and grouping the rest of the <em>colorspace</em> by which color is closest (<em>Voronoi partitioning</em>). <em>Stochastic 3D Voronoi Partitioning</em>. Neat.</p>
+
+<h1 id="step-two-the-k-d-tree">Step Two: The K-D Tree</h1>
+
+<p><em>Use the Voronoi Partitions to build a K-D Tree</em></p>
+
+<p>A <a href="https://en.wikipedia.org/wiki/K-d_tree">K-D Tree</a> is a binary tree used to partition <em>spacial</em> data instead of just numerical data. It works in some K number of dimensions instead of just one; a binary tree is a special case of a K-D tree where K=1. Normally, a K-D tree works somewhat differently than in our case. The Voronoi partioning gives much more asthetically pleasing results, but it isn’t a part of the normal process.</p>
+
+<p>For our case, we just use each group from the previous step (the Voronoi partitions) as a single branch of the tree. A normal K-D Tree has only two branches per step - we can have any number (although only one branch would be a pretty sad tree).</p>
+
+<p>The ‘key’ for each branch is just the point that corresponded to that group. Later, when we want to search through the tree, we just compare the color we’re searching to each branch’s initial color.</p>
+
+<p>Now, we just need to iterate the process: each sub-group from the original Voronoi partition is broken into a pattern of even more Voronoi partitions. Continue until each partition only has one pixel.</p>
+
+<p>Efficiently partitioning the whole space is a can of worms I don’t want to get into right now, but a push in the right direction would be to imagine each selected color as a heavy mass on a rubber sheet, and to imagine the other colors in the space as particles sliding down towards that color.</p>
+
+<h1 id="step-three-search-the-tree">Step Three: Search the Tree</h1>
+
+<p><em>Starting in the middle of the image, place each pixel from the tree</em></p>
+
+<p>This part is easier. Since we already have the tree, it’s now pretty easy to search it for colors. All we have to do is this:</p>
+
+<ol>
+  <li>Pick a pixel to place; start at the middle, and spiral outward to the edges.</li>
+  <li>Average the neighboring pixels; search the K-D Tree for the nearest color to this average.</li>
+  <li>Pop that color out of the tree; place it at this pixel.</li>
+  <li>Return to step 1 until we’re out of pixels.</li>
+</ol>
+
+<p>And that’s it. Tadaa! You’ve made an omnichromic (<em>omnichromatic?</em>) picture!</p>
+
+<h1 id="step-four-tune-the-result">Step Four: Tune the result</h1>
+
+<p>Lots of parameters can be changed and tuned here to make better looking outputs. For example, when making the Voronoi partitions, there’s not really a good reason to use the normal Euclidian metric. I found the best results come from using a skewed metric which uses Hue, Saturation, and Value as the basis, treats Hue as circular, and weights distances in Hue stronger when Saturation and Value are higher.</p>
+
+<p>There’s also no reason you have to start in the middle and spiral out:</p>
+
+<figure class="">
+  <img src="/assets/images/omni/drip.png" alt="" /></figure>
+
+<p>I personally think the circular ones are best, but to each their own. Someday I’ll probably write another version, but this is the project as it stands.</p>
+
+<p>Thanks for reading.</p>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2022-05-23T17:59:42-04:00">May 23, 2022</time></p>
+
+
+      </footer>
+
+      
+
+      
+  <nav class="pagination">
+    
+      <a href="/2022/05/21/kepler.html" class="pagination--pager" title="kepler.py█
+">Previous</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2022 tim.fish. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
+  
+    <script src="/assets/js/typewriter.js"></script>
+  
+
+
+
+  </body>
+</html>
