@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://tim.fish/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tim.fish/" rel="alternate" type="text/html" /><updated>2022-06-01T16:26:06-04:00</updated><id>https://tim.fish/feed.xml</id><title type="html">tim.fish</title><subtitle>tim.fish is the personal website of Tim Ewing, a software engineer from  Boulder, Colorado.</subtitle><author><name>Tim Ewing</name></author><entry><title type="html">omnichrome.py█</title><link href="https://tim.fish/2022/05/23/omnichrome.html" rel="alternate" type="text/html" title="omnichrome.py█" /><published>2022-05-23T17:59:42-04:00</published><updated>2022-05-23T17:59:42-04:00</updated><id>https://tim.fish/2022/05/23/omnichrome</id><content type="html" xml:base="https://tim.fish/2022/05/23/omnichrome.html">&lt;p&gt;&lt;a href=&quot;https://github.com/TimEwing/omni&quot;&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="https://tim.fish/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tim.fish/" rel="alternate" type="text/html" /><updated>2022-06-03T19:23:16-04:00</updated><id>https://tim.fish/feed.xml</id><title type="html">tim.fish</title><subtitle>tim.fish is the personal website of Tim Ewing, a software engineer from  Boulder, Colorado.</subtitle><author><name>Tim Ewing</name></author><entry><title type="html">omnichrome.py█</title><link href="https://tim.fish/2022/05/23/omnichrome.html" rel="alternate" type="text/html" title="omnichrome.py█" /><published>2022-05-23T17:59:42-04:00</published><updated>2022-05-23T17:59:42-04:00</updated><id>https://tim.fish/2022/05/23/omnichrome</id><content type="html" xml:base="https://tim.fish/2022/05/23/omnichrome.html">&lt;p&gt;&lt;a href=&quot;https://github.com/TimEwing/omni&quot;&gt;
   &lt;i class=&quot;fab fa-github&quot;&gt; View source on GitHub&lt;/i&gt;
 &lt;/a&gt;&lt;/p&gt;
 
@@ -145,4 +145,36 @@
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;The code is structured as a Python data pipeline, segmented into many steps which were individually tested and verified. It’s available on &lt;a href=&quot;git@github.com:TimEwing/pluto.git&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</content><author><name>Tim Ewing</name></author><summary type="html">New Horizons unresolved observation filter conversion, performed as an independent study.</summary></entry></feed>
+&lt;p&gt;The code is structured as a Python data pipeline, segmented into many steps which were individually tested and verified. It’s available on &lt;a href=&quot;git@github.com:TimEwing/pluto.git&quot;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;</content><author><name>Tim Ewing</name></author><summary type="html">New Horizons unresolved observation filter conversion, performed as an independent study.</summary></entry><entry><title type="html">Southwest Research Institute</title><link href="https://tim.fish/2022/04/03/swri.html" rel="alternate" type="text/html" title="Southwest Research Institute" /><published>2022-04-03T14:23:00-04:00</published><updated>2022-04-03T14:23:00-04:00</updated><id>https://tim.fish/2022/04/03/swri</id><content type="html" xml:base="https://tim.fish/2022/04/03/swri.html">&lt;h1 id=&quot;swri&quot;&gt;SwRI&lt;/h1&gt;
+&lt;p&gt;During my undergraduate degree, I worked part-time at Southwest Research Institure (SwRI) in Boulder, Colorado. The majority of my time was spent on two missions: CYGNSS, a constellation of eight satellites in low Earth orbit, and LUCY, a Discovery class mission on its way to the Trojan asteroids.&lt;/p&gt;
+
+&lt;h1 id=&quot;cygnss&quot;&gt;CYGNSS&lt;/h1&gt;
+&lt;p&gt;The Cyclone Global Navigation Satellite System (CYGNSS) is a constellation of eight approximately meter sized satellites in low Earth orbit. They use a Delay-Doppler Mapping Instrument (DDMI) to map ocean surface wind - that is, they listen to the reflection of GPS signals from the ocean surface and measure the amount of scatter caused by choppy waves to infer the surface wind speed. The data is used primarily to aid hurricane prediction efforts.&lt;/p&gt;
+
+&lt;figure class=&quot;&quot;&gt;
+  &lt;img src=&quot;/assets/images/cygnss_data.jpg&quot; alt=&quot;&quot; /&gt;&lt;figcaption&gt;
+      An example of CYGNSS DDMI data, from &lt;a href=&quot;https://www.nasa.gov/feature/nasa-s-cygnss-satellite-constellation-enters-science-operations-phase/&quot;&gt;nasa.gov&lt;/a&gt;
+
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;p&gt;I was initially hired to help take over maintenance of the mission planning system, a Django-based web service which mission planners used to scheudle operations of the satellites. I also worked as a Flight Controller on the mission, meaning I was the last human in the line between the commands scheduled by the mission planners and the satellites themselves.&lt;/p&gt;
+
+&lt;p&gt;After about a year at SwRI, I was also tasked with writing a few scripts for the mission’s &lt;a href=&quot;https://itos.gsfc.nasa.gov/index.php&quot;&gt;Integrated Test and Operations System&lt;/a&gt; which manages the playback of data during the satellites’ ground station overpasses. Scripts I wrote focused especially on data validation and playback; when blocks of data were found to be missing or corrupted after processing, my scripts would generate replay commands and pass them back to ITOS for replay on the next pass. These replays used extra time at the end of each pass in order to eliminate the need for extra planned replay passes. These scripts helped CYGNSS double the frequency of ground passes and reduce the latency between collection and use of data.&lt;/p&gt;
+
+&lt;p&gt;I also authored and co-authored papers while at SwRI, both of which presented at the IEEE Aerospace Conference. The first paper, &lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/8741926&quot;&gt;&lt;em&gt;When You Have More Satellites than People: The Evolution of CYGNSS Flight Operations&lt;/em&gt;&lt;/a&gt; details the process we use to manage the constellation with minimal staff and how we use extensive automation in our process. The second paper, &lt;a href=&quot;https://ieeexplore.ieee.org/document/9438383&quot;&gt;&lt;em&gt;Django as a Mission Planning Tool Interface for the CYGNSS Mission&lt;/em&gt;&lt;/a&gt;, is a dive into the types of interfaces generally used for mission planning tools and a description of how web development strategies can be used to quickly iterate and test tools for mission planning. A full PDF is available &lt;a href=&quot;/assets/cycygnss_paper.pdf&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+&lt;embed src=&quot;/assets/cycygnss_paper.pdf&quot; type=&quot;application/pdf&quot; /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;lucy&quot;&gt;LUCY&lt;/h1&gt;
+&lt;p&gt;LUCY is a Discovery class mission launched on October 16, 2021. It will fly by a series of Trojan asteroids, objects which orbit out of phase in the same orbit as Jupiter, using a complicated series of gravity assists.&lt;/p&gt;
+
+&lt;figure&gt;
+  &lt;video align=&quot;center&quot; width=&quot;100%&quot; autoplay=&quot;true&quot; loop=&quot;&quot; muted=&quot;&quot;&gt;
+    &lt;source src=&quot;https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004719/Lucy_full_01_1080p30.mp4&quot; type=&quot;video/mp4&quot; /&gt;
+  &lt;/video&gt;
+  &lt;figcaption&gt;LUCY's planned trajectory, via &lt;a hrev=&quot;https://svs.gsfc.nasa.gov/4719&quot;&gt;NASA's SVI&lt;/a&gt;.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;My role on LUCY was very similar to the work I did on CYGNSS; I helped design a mission planning interface using Python/Django from the ground up using lessons learned from the previous version. I built the initial versions of the codebase and helped build out both the backend and frontend. I also contributed to &lt;a href=&quot;https://ieeexplore.ieee.org/abstract/document/9438187&quot;&gt;&lt;em&gt;Lucy Science Planning: Incorporating Lessons Learned from over a Decade of Space Ops Experience&lt;/em&gt;&lt;/a&gt;, a paper presented at the 2021 IEEE Aerospace Conference.&lt;/p&gt;</content><author><name>Tim Ewing</name></author><summary type="html">Located in Boulder, Colorado where I worked on LUCY, a NASA Discovery class Mission and CYGNSS, a NASA Pathfinder class Mission.</summary></entry></feed>

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>https://tim.fish/2022/04/03/swri.html</loc>
+<lastmod>2022-04-03T14:23:00-04:00</lastmod>
+</url>
+<url>
 <loc>https://tim.fish/2022/05/18/nh-convert.html</loc>
 <lastmod>2022-05-18T12:00:00-04:00</lastmod>
 </url>
@@ -20,6 +24,10 @@
 </url>
 <url>
 <loc>https://tim.fish/</loc>
+</url>
+<url>
+<loc>https://tim.fish/assets/cycygnss_paper.pdf</loc>
+<lastmod>2022-06-03T19:06:18-04:00</lastmod>
 </url>
 <url>
 <loc>https://tim.fish/assets/nh_conversion_tim_ewing.pdf</loc>
